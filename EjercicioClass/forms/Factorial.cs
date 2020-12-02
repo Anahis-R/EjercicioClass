@@ -19,8 +19,8 @@ namespace EjercicioClass.forms
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            int calcular = int.Parse(txtNumero.Text);
-            string cad = TIC.Utilidades.factorial(calcular);
+            int cal = int.Parse(txtNumero.Text);
+            string cad = TIC.Utilidades.factorial(cal);
             this.txtRespuesta.Text = cad;
         }
     }

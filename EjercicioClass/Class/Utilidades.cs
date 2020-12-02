@@ -10,14 +10,14 @@ namespace TIC
     {
         public static string factorial(int calcular)
         {
-            int i;
-            double result = 1;
+            int j;
+            double resultado = 1;
             string a;
-            for (i = 1; i <= calcular; i++)
+            for (j = 1; j <= calcular; j++)
             {
-                result = result * i;
+                resultado *=  j;
             }
-            a = result + Environment.NewLine;
+            a = resultado + Environment.NewLine;
             return a;
         }
     }

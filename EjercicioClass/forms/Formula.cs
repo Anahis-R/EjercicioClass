@@ -19,20 +19,20 @@ namespace EjercicioClass.forms
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            int resultado = 0;
+            int resul = 0;
             int inicio = int.Parse(txtinicio.Text);
             int fin = int.Parse(txtfin.Text);
-            sumatoria(inicio, fin, resultado);
+            sumatoria(inicio, fin, resul);
         }
         void sumatoria(int inicio, int fin, int resultado)
         {
-            int operacion;
-            for (int i = inicio; i <= fin; i++)
+            int op;
+            for (int j = inicio; j <= fin; j++)
             {
-                operacion = (2 ^ (i + 1) - 2 ^ (i)) / i + 1;
-                resultado = resultado + operacion;
+                op = (2 ^ (j + 1) - 2 ^ (j)) / j + 1;
+                resultado = resultado + op;
             }
-            lbrespuesta.Text = "La respuesta es : " + resultado;
+            lblRespuesta.Text = "Respuesta  " + resultado ;
         }
     }
 }

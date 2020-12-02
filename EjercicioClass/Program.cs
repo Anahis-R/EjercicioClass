@@ -16,7 +16,7 @@ namespace EjercicioClass
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new forms.Factorial());
+            Application.Run(new forms.Formula());
         }
     }
 }
