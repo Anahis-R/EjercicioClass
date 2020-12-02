@@ -49,7 +49,7 @@
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcular.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalcular.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnCalcular.Location = new System.Drawing.Point(445, 24);
             this.btnCalcular.Name = "btnCalcular";
